@@ -24,6 +24,9 @@ def calculate_circle_area(radio):
     except TypeError:
         return 'Failure on calculation of Radio!'
 
+def calculate_volum_paralelogram(large, comp, high):
+    return large * comp * high
+
 
 if __name__ == '__main__':
 
